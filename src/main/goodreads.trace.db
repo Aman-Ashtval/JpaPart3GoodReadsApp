@@ -1,0 +1,9 @@
+2024-02-14 10:18:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]pragma table_info(publisher)"; expected "PREPARE"; SQL statement:
+pragma table_info(publisher) [42001-214]
+2024-02-14 10:19:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]pragma table_info publisher"; expected "PREPARE"; SQL statement:
+pragma table_info publisher [42001-214]
+2024-02-14 10:33:11 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "delete [*]* from publisher where publisherId > 6"; expected "identifier"; SQL statement:
+delete * from publisher where publisherId > 6 [42001-214]
